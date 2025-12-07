@@ -1,4 +1,3 @@
-print("this the first file")
-while x in range(100):
-  print("this is the first file")
-  
+import pandas as pd
+df=pd.read_csv('C:\Users\user\Downloads\ aboutus.csv')
+df
